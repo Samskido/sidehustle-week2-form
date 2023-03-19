@@ -143,10 +143,14 @@ header {
  
 /* For Responsiveness of the page */
  
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
     .container {
         height: 600px;
         width: 300px;
+        margin: auto ;
+    }
+    .heading{
+        text-align: center;
     }
  
     .title {
@@ -210,6 +214,7 @@ header {
  
     .heading {
         font-size: 30px;
+        text-align: center;
     }
  
     .title {
